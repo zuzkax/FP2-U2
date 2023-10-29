@@ -67,6 +67,21 @@ def z10_na_u2(x):
             return output2
 
 
+def z10_na_u2_odwrócone(x):
+    output1 = na_bin(x)
+    output1.insert(0,0)
+    if x < 0:
+        return output1
+    if x > 0:
+        if binary_search(wagi, x):
+            return na_bin(x)
+        else:
+            output2 = ''
+            for znak in output1:
+                output2 += str(znak ^ 1)  # not, negacja
+            output2 = add_bin(output2, "1")
+            return output2
+
 
 
 
