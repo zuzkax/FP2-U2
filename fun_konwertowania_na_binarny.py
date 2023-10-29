@@ -3,9 +3,10 @@ wpisac czesc calkowaita i ulamkowa osobno
 '''
 
 
-
 def na_bin(x):
     wynik = []
+    if x < 0:
+        x = x *-1
     while x > 0:
         if x % 2 == 0:
             wynik.append(0)
