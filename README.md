@@ -43,3 +43,12 @@ arg (liczba, długość)
 1. bin(liczba,2)[2:] # zamiana liczby na binarna, czytana od 3 elementu
 2. petla while póki długosc liczby_bin nie bedzie równa dlugosci_arg
 
+
+KROKI DO OBLICZENIA FP2:
+1. zamiana liczby na binarna
+2. wyznaczenie dlugosci (liczby bitów)
+3. c = długosc - 1
+4. zakodowanie c w u2/u2 odwrócontm
+5. zapisanie matysy (m = liczba binarna[1:])
+6. jeżeli znak liczby ujemny to najstarszy bit = 1, jeżeli nie to 0
+7. złożenie liczby 
