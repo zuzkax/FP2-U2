@@ -4,8 +4,10 @@ Zamienia liczby dziesiętne dodatnie:
   1. zamiana na binarny
   2. dodanie 0 na poczatku
 Zamienia liczby dziesiętne ujemne:
-  1. stworzenie zmiennej bin która przechowuje wynik funkcji na_bin, typ LISTA
-  2. odwrócenie listy bin
+  1. stworzenie zmiennej przechwujacej wynik
+  2. sprwdzenie czy liczba nie jest potega 2 czyli czy nie nalezydo tablicy wagie
+     -jeżeli jest po prostu zwracamy wartosc binarna
+     -jeżeli nie to pętla 
   3. petla
      - negacja kazdego znaku w liscie
      - wynikiem petli jest string
