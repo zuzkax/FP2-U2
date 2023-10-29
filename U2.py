@@ -4,16 +4,6 @@ import bisect
 
 wagi = [1,2,4,8,16,32,64,128,256,512]
 
-def sufit(x):
-    if wagi.count(x) == 1: #jeżeli x znajduje sie w wagi
-        return x
-    else:
-        for i in range(len(wagi)):
-            if x < wagi[i]:
-                return wagi[i]
-
-
-
 
 def add_bin(bin1, bin2):
     max_len = max(len(bin1), len(bin2)) #uzupełnienia do równej długości
