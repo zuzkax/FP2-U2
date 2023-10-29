@@ -1,5 +1,5 @@
 # FP2-U2
-=============   ALGORYTM Z 10 NA U2 ======================================== 
+=============   ALGORYTM Z 10 NA U2 ============================
 Zamienia liczby dziesiętne dodatnie:
   1. zamiana na binarny
   2. dodanie 0 na poczatku
@@ -14,7 +14,7 @@ Zamienia liczby dziesiętne ujemne:
   4. dodanie 1
   5. zmiana stringu na liste
 
--------------- algorytm dodawania binarnego ---------------------------------
+-------------- algorytm dodawania binarnego -----------------------
 1. zmienna maks_długosc
 2. uzupełnenie zerami liczb
 3. zmienna przeniesienie
@@ -28,7 +28,7 @@ Zamienia liczby dziesiętne ujemne:
 
 
 
-================ ALGORYTM Z 10 NA U2 ODWRÓCONE ================================
+================ ALGORYTM Z 10 NA U2 ODWRÓCONE =====================
 Jeżeli liczba jest ujemna:
   1. przeliczenie jej na sys bin funkcja na_bin
   2. dodanie 0 na najstrszym bicie
@@ -38,7 +38,7 @@ Jeżeli liczba jest dodatnia:
   3. zakodowanie dopełnienia w systemie binarnym funkcją na_bin2
   4. dodanie 1 na najstarszym bicie 
 
--------------- algorytm na_bin2 ------------------------------------------------
+-------------- algorytm na_bin2 -------------------------------------
 arg (liczba, długość)
 1. bin(liczba,2)[2:] # zamiana liczby na binarna, czytana od 3 elementu
 2. petla while póki długosc liczby_bin nie bedzie równa dlugosci_arg
