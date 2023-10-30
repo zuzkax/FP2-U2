@@ -67,7 +67,7 @@ def z10_na_u2(x):
             return output2
 
 
-def z10_na_u2_odwrócone(x):
+def z10_na_u2_odwrocone(x):
     output1 = na_bin(x)
     output1.insert(0,0)
     if x < 0:
