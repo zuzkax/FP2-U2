@@ -68,7 +68,7 @@ def z10_na_u2(x):
 wagi = [1,2,4,8,16,32,64,128,256,512]
 
 
-with open('resoults_testcase1.txt', 'w') as file:
+with open('resoults_test1.txt', 'w') as file:
     for i in range(-512,513):
         file.write(str(i) + str(z10_na_u2(i)) + '\n')
 
